@@ -4,7 +4,7 @@ from astropy.coordinates import SkyCoord
 import astropy.coordinates as coord
 import astropy.units as u
 
-def plot_screens_3D(sources,screens,bounds=[-0.5,0.5,-0.5,0.5,-0.5,0.5],include_legend=True,cm="magma"):
+def plot_screens_3D(sources,screens,bounds=[-0.5,0.5,-0.5,0.5,-0.5,0.5],include_legend=False,cm="magma"):
     """
     Plot the 3D locations and velocity vectors of scintillation screens.
     
