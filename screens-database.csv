@@ -39,3 +39,5 @@ B1822-14,a,0.472727272727273,2.9,NA,NA,Angular Broadening,,Dexter2017
 B1929+10,a,0.09,0.3549,NA,NA,Arc Curvature Single,Maximum value for s,PutneyStinebring2006
 B1929+10,b,0.39,0.2379,NA,NA,Arc Curvature Single,Maximum value for s,PutneyStinebring2006
 B1929+10,c,0.78,0.0858,NA,NA,Arc Curvature Single,Maximum value for s,PutneyStinebring2006
+B0656+14,a,0.099,0.26,NA,NA,Arc Curvature Single,Measured three epochs of arc curvature,Yao2022
+B0656+14,b,0.36,0.185,NA,NA,Arc Curvature Single,Measured three epochs of arc curvature,Yao2022
