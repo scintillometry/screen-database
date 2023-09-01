@@ -29,7 +29,7 @@ def plot_screens_3D(sources,screens,bounds=[-0.5,0.5,-0.5,0.5,-0.5,0.5],include_
         cmap = cm
     slicedCM = cmap(np.linspace(0, 1, len(sources)))
     ax = plt.figure(figsize=(7,7)).add_subplot(projection='3d')
-    psr_coords = SkyCoord(l=sources['GL']*u.deg,b=sources['GB']*u.deg,distance = sources['DIST']*u.kpc,frame='galactic')
+    psr_coords = SkyCoord(l=sources['GL']<<u.deg,b=sources['GB']<<u.deg,distance = sources['DIST']<<u.kpc,frame='galactic')
     i = 0
     for psr_name in sources['NAME']:
         ax.plot3D([0,psr_coords[i].cartesian.x.value],
