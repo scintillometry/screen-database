@@ -100,10 +100,8 @@ def summary_plots(sources,screens):
     plt.scatter(sources['DM'],sources['NSCREENS'])
     plt.xlabel(r'Dispersion Measure (pc cm$^{-3}$)')
     plt.ylabel('Number of screens')
-    plt.yticks(np.arange(1,np.max(sources['NSCREENS'])+1,1))
     plt.subplot(224)
     plt.scatter(sources['DIST'],sources['NSCREENS'])
     plt.xlabel(r'Source Distance, $d_p$ (kpc)')
     plt.ylabel('Number of screens')
-    plt.yticks(np.arange(1,np.max(sources['NSCREENS'])+1,1))
     
